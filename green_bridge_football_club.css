@@ -1,0 +1,82 @@
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar,
+navbar-expand-lg {
+    background-color: #006666;
+}
+
+a,
+navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: medium;
+    font-size: 16px;
+    color: white;
+}
+
+.btn-primary {
+    background: #006666;
+    border: 0px;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: black;
+    border: 0px;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background: red;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background: blue;
+    border: 0px;
+    color: #ffffff;
+}
+
+.herobwa h1 {
+    font-family: poppins;
+    font-weight: 700;
+    color: #2f281f;
+}
+
+.herobwa p {
+    font-family: poppins;
+    font-weight: 400;
+    color: #2f281f;
+}
+
+.judul {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.posisiteks {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-primary,
+    .btn-secondary {
+        margin-top: 5px;
+        margin-left: 0 !important;
+    }
+}
+
+
+/* untuk mengatur dengan kanan atas bawah dengan padding */
